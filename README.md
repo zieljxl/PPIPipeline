@@ -9,11 +9,11 @@ This pipeline is developed for sequence-based protein-protein interaction and bi
     Pickle
     Scikit-learn 0.19
     Tensorflow 1.2.0
-    Keras 1.2.0 (for PPI) Keras 2.1.2(for PPI2)
+    Keras 1.2.0 (for DeepFE-PPI) Keras 2.1.2(for DeePPI)
     Numba
     Pytorch
     Terminal
-    Hmmer
+    Hmmer (Please set the correct path for hmmer bin inside the python code)
     DeepFE-PPI (https://github.com/xal2019/DeepFE-PPI.git)
     DeepPPI (gitlab.univ-nantes.fr:richoux-f/DeepPPI.git)
     ResPRE (https://github.com/leeyang/ResPRE.git)
