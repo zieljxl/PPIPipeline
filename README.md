@@ -17,14 +17,14 @@ This pipeline is developed for sequence-based protein-protein interaction and bi
     DeepFE-PPI (https://github.com/xal2019/DeepFE-PPI.git)
     DeepPPI (gitlab.univ-nantes.fr:richoux-f/DeepPPI.git)
     ResPRE (https://github.com/leeyang/ResPRE.git)
-
+The copyright of DeepFE-PPI, DeepPPI and ResPRE scripts belongs to their own authors. 
 # Scientific Aim 1: Protein-protein interaction prediction
 
-  - Want to use DeepFE-PPI method. 
+  - Want to use DeepFE-PPI method. Please put the code under the DeepFE-PPI folder.
     ```sh
     python3 ppi_prediction.py protein1 protein2
     ```
-  - Want to use DeepPPI method
+  - Want to use DeepPPI method. Please put the code and model under the DeepPPI-keras folder.
     ```sh
     ppi_prediction_planb.py protein1 protein2 whether_remove_polyq
     ```
@@ -32,7 +32,7 @@ This pipeline is developed for sequence-based protein-protein interaction and bi
   - For DeepPPI, you can also decide to remove polyq aggregates or not
   
 You can also:
-  - Test binding probabilities for multipe proteins
+  - Test binding probabilities for multiple proteins. Please put the code under the DeepPPI-keras folder.
      ```sh
     multi_body.py
     ```
